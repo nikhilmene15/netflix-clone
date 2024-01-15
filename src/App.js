@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Homescreen from './Homescreen';
 
 function App() {
   return (
     <div className="App">
-     
-    <h1>Netflix Clone</h1>
+   <Homescreen />
     </div>
   );
 }
