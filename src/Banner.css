@@ -1,0 +1,51 @@
+
+.banner__sec{
+    height: 100vh;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.banner__content{
+    position: absolute;
+    top: 20%;
+}
+.banner__content h1{
+  font-size: 4.2rem;
+  color:#fff;
+}
+.banner__content p{
+    font-size: 1.2rem;
+    color: #fff;
+    width: 60%;
+  }
+  .banner__content .banner_btn{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    transition: all .3s;
+}
+.banner__content .banner_btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.banner__fadeBottom{
+    height: 7.5rem;
+    background-image: linear-gradient( 180deg, transparent, rgba(37, 37, 37, 0.61), #111 );
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.slick-slide img:hover{
+    transition: all .3s;
+    transform: scale(1.1);
+}
